@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Caffe Capping</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ?Google Font Link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="./assets/images/logo.jpg" alt="logo">
+            <h2>Caffe Capping</h2>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <label for="nav-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <!-- lists -->
+        <div class="nav-links">
+            <ul class="nav-ul">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html" class="active">MENU</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Menu Page Content -->
+    <main class="menu-content">
+        <!-- Hero Section main heading -->
+        <section class="menu-hero">
+            <h1>Our Coffee Menu</h1>
+            <p>Discover the perfect blend of taste and aroma</p>
+        </section>
+
+        <!-- Menu Items Buttons -->
+        <section class="Items-btn-section">
+            <div class="Items-btn">
+                <button class="menu-item-btn active" id="btnAllItems">All Items</button>
+                <button class="menu-item-btn" id="btnCoffee">Coffee</button>
+                <button class="menu-item-btn" id="btnTea">Tea</button>
+                <button class="menu-item-btn" id="btnFood">Food</button>
+                <button class="menu-item-btn" id="btnDesserts">Desserts</button>
+            </div>
+        </section>
+
+
+        <!-- Coffee Menu Cards -->
+        <section class="menu-section">
+            <h2 class="menu-category" id="coffee">Coffee Specialties</h2>
+            <div class="menu-cards">
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/card1-coffee-latte.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Classic Latte</h3>
+                        <p>Rich espresso with steamed milk and light foam</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 600</span>
+                            <span class="size">M: PKR 650</span>
+                            <span class="size">L: PKR 700</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/card2-cappuinco.jpg" alt="Cappuccino">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cappuccino</h3>
+                        <p>Equal parts espresso, steamed milk, and foam</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 380</span>
+                            <span class="size">M: PKR 430</span>
+                            <span class="size">L: PKR 550</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/americano-tea.jpg" alt="Americano">
+                    </div>
+                    <div class="card-content">
+                        <h3>Americano</h3>
+                        <p>Espresso with hot water for a rich flavor</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 250</span>
+                            <span class="size">M: PKR 300</span>
+                            <span class="size">L: PKR 350</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/card4-choclate-coffe.JPG" alt="Mocha">
+                        <span class="popular-badge">Best Seller</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chocolate Mocha</h3>
+                        <p>Espresso with chocolate and steamed milk</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 220</span>
+                            <span class="size">M: PKR 270</span>
+                            <span class="size">L: PKR 320</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tea Section -->
+        <section class="menu-section">
+            <h2 class="menu-category" id="tea">Tea Selection</h2>
+            <div class="menu-cards">
+                <!-- Add tea cards similarly -->
+
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/tea-milk.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Milk Tea</h3>
+                        <p>Rich blend of tea leaves with creamy milk and sugar</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 150</span>
+                            <span class="size">M: PKR 220</span>
+                            <span class="size">L: PKR 300</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/green-tea.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Green Tea</h3>
+                        <p>Healthy antioxidant-rich tea with natural herbal flavors</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 120</span>
+                            <span class="size">M: PKR 180</span>
+                            <span class="size">L: PKR 220</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/lemon-tea-with-fresh-slices.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Lemon Tea</h3>
+                        <p>Refreshing citrus-infused tea with tangy lemon twist</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 150</span>
+                            <span class="size">M: PKR 180</span>
+                            <span class="size">L: PKR 250</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/black-tea.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Black Tea</h3>
+                        <p>Strong bold tea without milk, pure and energizing</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 190</span>
+                            <span class="size">M: PKR 250</span>
+                            <span class="size">L: PKR 300</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/choclate-tea.jpg"
+                            alt="Classic Latte">
+                        <span class="popular-badge">Best Seller</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chocolate Tea</h3>
+                        <p>Decadent cocoa-infused tea with sweet chocolate notes</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR250</span>
+                            <span class="size">M: PKR290</span>
+                            <span class="size">L: PKR340</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- end -->
+
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section class="menu-section">
+            <h2 class="menu-category" id="food">Food & Snacks</h2>
+            <div class="menu-cards">
+                <!-- Add food cards similarly -->
+
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/samosa.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Samosa</h3>
+                        <p>Crispy pastry filled with spiced potatoes and peas</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 100</span>
+                            <span class="size">M: PKR 150</span>
+                            <span class="size">L: PKR 200</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/burger.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Best Seller</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Burger </h3>
+                        <p>Juicy patty with fresh veggies in soft bun</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 120</span>
+                            <span class="size">M: PKR 150</span>
+                            <span class="size">L: PKR 200</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/kabab.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kabab </h3>
+                        <p>Grilled minced meat skewers with aromatic spices</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 220</span>
+                            <span class="size">M: PKR 280</span>
+                            <span class="size">L: PKR 320</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/chicken-fried.jpg"
+                            alt="Classic Latte">
+                        <span class="popular-badge">Best Seller</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chicken Wings</h3>
+                        <p>Crispy fried chicken wings with spicy seasoning</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 400</span>
+                            <span class="size">M: PKR 550</span>
+                            <span class="size">L: PKR 700</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/chana-chaat.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Chana Chat</h3>
+                        <p>Tangy chickpea salad with spices and chutneys</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 200</span>
+                            <span class="size">M: PKR 250</span>
+                            <span class="size">L: PKR 300</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- Desserts Section -->
+        <section class="menu-section">
+            <h2 class="menu-category" id="desserts">Desserts</h2>
+            <div class="menu-cards">
+                <!-- Add dessert cards similarly -->
+
+                <!-- Card 1 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/Falooda.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Strawberry Faluda</h3>
+                        <p>Creamy vermicelli dessert with strawberry syrup and ice cream</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 300</span>
+                            <span class="size">M: PKR 350</span>
+                            <span class="size">L: PKR 450</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/halwa.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Carrot Halwa</h3>
+                        <p>Traditional carrot pudding with dry fruits and cardamom</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 200</span>
+                            <span class="size">M: PKR 250</span>
+                            <span class="size">L: PKR 300</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/Jalebi.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Best Seller</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Jalebi</h3>
+                        <p>Crispy orange swirls soaked in sweet sugar syrup</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 150</span>
+                            <span class="size">M: PKR 250</span>
+                            <span class="size">L: PKR 350</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/Jamun.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Gulab Jamun</h3>
+                        <p>Soft milk balls in fragrant rose-flavored syrup</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 220</span>
+                            <span class="size">M: PKR 260</span>
+                            <span class="size">L: PKR 300</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Card 5 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/kheer.jpg" alt="Classic Latte">
+                        <span class="popular-badge">Popular</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kheer</h3>
+                        <p>Creamy rice pudding with nuts and saffron flavor</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 350</span>
+                            <span class="size">M: PKR 450</span>
+                            <span class="size">L: PKR 600</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- Card 6 -->
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="assets/images/cake.jpg" alt="Classic Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cake</h3>
+                        <p>Soft sponge cake with creamy frosting and decorations</p>
+                        <div class="price-size">
+                            <span class="size">S: PKR 500</span>
+                            <span class="size">M: PKR 650</span>
+                            <span class="size">L: PKR 700</span>
+                        </div>
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Scroll Button -->
+    <button id="scrollToggle" class="scroll-btn">
+        <i class="fas fa-arrow-up" id="scrollIcon"></i>
+    </button>
+
+
+    <!-- footer -->
+    <footer class="coffee-footer">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-section">
+                <h3>CAFFE CAPPING</h3>
+                <p>Where every cup tells a story. We serve premium coffee with passion and create moments that matter.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Coffee Avenue, DHA Phase 6, Karachi, Sindh 75500</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+92 98989 43210</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>hello@caffecapping.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Mon-Sun: 7:00 AM - 10:00 PM</span>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates and offers</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&copy; 2025 Caffe Capping. All rights reserved. | Made with ❤️ & ☕ by Hatesh Lakhani</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
